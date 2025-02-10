@@ -29,7 +29,7 @@ public class StudentController {
 	public String postOne(@RequestBody Student st) throws AgeException {
 		return ss.postOne(st);
 	}
-	@PutMapping(value="/update/{id}")
+	@PutMapping(value="/update1/{id}")
 	public String update(@PathVariable int id,@RequestBody Student st) {
 		return ss.update(id, st);
 	}
